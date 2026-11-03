@@ -1,0 +1,246 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+#name {
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+    color: aliceblue;
+    text-align:center;
+    text-shadow: 1px 1px 2px lightskyblue;
+    padding-left:30px;
+}
+
+#university {
+    font-family:'Franklin Gothic Medium';
+    font-size: 25px;
+    color: aliceblue;
+    text-align:center;
+    text-shadow: 1px 1px 1px lightskyblue;
+    padding-top: 0px;
+    padding-left:30px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+
+.aboutme {
+    width: 120px;
+    height: 40px;
+    font-size:18px;
+    text-align: center;
+    color:aliceblue;
+    font-family:'Franklin Gothic Medium';
+    background-color:rgb(3, 133, 199);
+    border-color:aliceblue;
+    font-weight: bold;
+}
+.aboutme:hover {
+    background-color: whitesmoke;
+    color: rgb(3, 133, 199);
+}
+
+
+.research {
+    width: 200px;
+    height: 40px;
+    font-size:18px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium';
+    background-color: rgb(3, 133, 199);
+    border-color:aliceblue;
+    font-weight: bold;
+}
+.research:hover {
+    background-color: whitesmoke;
+    color: rgb(3, 133, 199);
+}
+
+
+.linkedin {
+    width: 120px;
+    height: 40px;
+    font-size:18px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium';
+    background-color: rgb(3, 133, 199);
+    border-color:aliceblue;
+    font-weight: bold;
+}
+.linkedin:hover {
+    background-color: whitesmoke;
+    color: rgb(3, 133, 199);
+}
+
+
+.resume {
+    width: 120px;
+    height: 40px;
+    font-size:18px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium';
+    background-color: rgb(3, 133, 199);
+    border-color:aliceblue;
+    font-weight: bold;
+}
+.resume:hover {
+    background-color: whitesmoke;
+    color: rgb(3, 133, 199);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: lightblue;
+    border-top: 3px solid aliceblue;
+    border-bottom: 3px solid rgb(3, 133, 199);
+}
+
+.headings{
+    background-color: rgb(3, 133, 199);
+    margin: -21px;
+    padding: 20px;
+}
+
+
+#nameResume {
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+    color: rgb(3, 133, 199);
+    text-align:center;
+    text-shadow: 1px 1px 2px aliceblue;
+    padding-left:30px;
+}
+
+#nameResearch {
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+    color: rgb(3, 133, 199);
+    text-align:center;
+    text-shadow: 1px 1px 2px aliceblue;
+    padding-left:30px;
+}
+
+
+
+
+.pdf-container {
+    max-width: 800px; 
+    margin: 20px auto;
+    border: 3px solid  rgb(3, 133, 199);
+    border-radius: 8px;
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 700px;
+    border: none;
+}
+
+#firstpara {
+    border-top: 3px solid aliceblue;
+    padding-top: 50px;
+    font-family:'Times New Roman';
+    font-size: 22px;
+    text-align:justify;
+    color: rgb(3, 133, 199);
+    padding-left: 70px;
+    padding-right: 70px;
+    display: block;
+}
+
+#secondpara {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    text-align:justify;
+    padding-left: 70px;
+    padding-right: 450px;
+    display: block;
+    padding-top: 10px;
+}
+
+#thirdpara {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    text-align:justify;
+    padding-left: 70px;
+    padding-right: 450px;
+    display: block;
+    padding-top: 10px;
+}
+
+#fourthpara {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    text-align:justify;
+    padding-left: 70px;
+    padding-right: 450px;
+    display: block;
+    padding-top: 10px;
+}
+
+#fifthpara {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    padding-left: 70px;
+    text-align:justify;
+    padding-right: 450px;
+    display: block;
+    padding-top: 5px;
+}
+
+#sixthpara {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    padding-left: 70px;
+    padding-right: 450px;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+#Future {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    text-align:left;
+    text-shadow: 1px 1px 2px aliceblue;
+    padding-top: 5px;
+    padding-left:70px;
+}
+
+
+#firstparaResearch {
+    font-family:'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 133, 199);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top:20px;
+    display: block;
+}
+
+.headshot {
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    float: right;
+    margin-right: 70px;
+    border: 3px solid rgb(3, 133, 199);
+}
