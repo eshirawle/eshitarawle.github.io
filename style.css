@@ -154,8 +154,8 @@ body {
     font-size: 22px;
     text-align:justify;
     color: rgb(3, 133, 199);
-    padding-left: 300px;
-    padding-right: 300px;
+    border-left: 300px;
+    border: 300px;
     display: block;
 }
 
