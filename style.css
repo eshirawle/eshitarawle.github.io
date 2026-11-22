@@ -149,13 +149,13 @@ body {
 
 #firstpara {
     border-top: 3px solid aliceblue;
-    padding-top: 50px;
     font-family:'Times New Roman';
     font-size: 22px;
     text-align:justify;
     color: rgb(3, 133, 199);
-    padding-left: 300px;
-    padding-right: 300px;
+    max-width: 750px;
+    margin: 24px auto;
+    padding: 24px clamp(16px, 4vw, 32px);
     display: block;
 }
 
@@ -164,10 +164,9 @@ body {
     font-size: 22px;
     color: rgb(3, 133, 199);
     text-align:justify;
-    padding-left: 70px;
-    padding-right: 450px;
+    padding: 20px clamp(16px, 3vw, 28px);
+    margin: 0 0 20px 0;
     display: block;
-    padding-top: 10px;
 }
 
 #thirdpara {
