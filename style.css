@@ -149,6 +149,8 @@ body {
 
 #firstpara {
     border-top: 3px solid aliceblue;
+    border: 2px solid rgb(3, 133, 199);
+    border-radius: 8px;
     font-family:'Times New Roman';
     font-size: 22px;
     text-align:justify;
@@ -160,81 +162,23 @@ body {
     display: block;
 }
 
-#secondpara {
-    font-family:'Times New Roman';
-    font-size: 22px;
-    text-align:justify;
-    color: rgb(3, 133, 199);
-    max-width: 750px;
-    margin: 24px auto;
-    padding: 24px clamp(16px, 4vw, 32px);
-    display: block;
-}
-
-#thirdpara {
-    font-family:'Times New Roman';
-    font-size: 22px;
-    text-align:justify;
-    color: rgb(3, 133, 199);
-    max-width: 750px;
-    margin: 24px auto;
-    padding: 24px clamp(16px, 4vw, 32px);
-    display: block;
-}
-
-#fourthpara {
-    font-family:'Times New Roman';
-    font-size: 22px;
-    text-align:justify;
-    color: rgb(3, 133, 199);
-    max-width: 750px;
-    margin: 24px auto;
-    padding: 24px clamp(16px, 4vw, 32px);
-    display: block;
-}
-
-#fifthpara {
-    font-family:'Times New Roman';
-    font-size: 22px;
-    text-align:justify;
-    color: rgb(3, 133, 199);
-    max-width: 750px;
-    margin: 24px auto;
-    padding: 24px clamp(16px, 4vw, 32px);
-    display: block;
-}
-
-#sixthpara {
-    font-family:'Times New Roman';
-    font-size: 22px;
-    text-align:justify;
-    color: rgb(3, 133, 199);
-    max-width: 750px;
-    margin: 24px auto;
-    padding: 24px clamp(16px, 4vw, 32px);
-    display: block;
-}
-
-#seventhpara {
-    font-family:'Times New Roman';
-    font-size: 22px;
-    text-align:justify;
-    color: rgb(3, 133, 199);
-    max-width: 750px;
-    margin: 24px auto;
-    padding: 24px clamp(16px, 4vw, 32px);
-    display: block;
-}
-
+#secondpara,
+#thirdpara,
+#fourthpara,
+#fifthpara,
+#sixthpara,
+#seventhpara,
 #eightpara {
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
     font-size: 22px;
-    color: aliceblue;
-    text-align:center;
-    text-shadow: 1px 1px 2px lightskyblue;
-    max-width: 750px;
-    margin: 30px auto;
+    text-align: justify;
+    color: rgb(3, 133, 199);
+    max-width: 900px;
+    margin: 24px auto;
     padding: 24px clamp(16px, 4vw, 32px);
+    border: 2px solid rgb(3, 133, 199);
+    border-radius: 8px;
+    box-sizing: border-box;
     display: block;
 }
 
