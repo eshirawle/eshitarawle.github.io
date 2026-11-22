@@ -131,6 +131,7 @@ body {
     padding: 24px clamp(16px, 4vw, 32px);
     box-sizing: border-box;
     display: block;
+    padding-bottom: -20px;
 }
 
 #quoteone {
