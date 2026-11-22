@@ -2,142 +2,98 @@ body {
     background-color: whitesmoke;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 #name {
-    font-family:'Franklin Gothic Medium';
-    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: clamp(32px, 5vw, 50px);
     color: aliceblue;
-    text-align:center;
+    text-align: center;
     text-shadow: 1px 1px 2px lightskyblue;
-    padding-left:30px;
+    padding-left: 30px;
 }
 
 #university {
-    font-family:'Franklin Gothic Medium';
-    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: clamp(18px, 2.5vw, 25px);
     color: aliceblue;
-    text-align:center;
+    text-align: center;
     text-shadow: 1px 1px 1px lightskyblue;
     padding-top: 0px;
-    padding-left:30px;
+    padding-left: 30px;
     margin-top: -20px;
     padding-bottom: 30px;
 }
 
-.aboutme {
+.aboutme,
+.linkedin,
+.resume {
     width: 120px;
     height: 40px;
-    font-size:18px;
+    font-size: 18px;
     text-align: center;
-    color:aliceblue;
-    font-family:'Franklin Gothic Medium';
-    background-color:rgb(3, 133, 199);
-    border-color:aliceblue;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(3, 133, 199);
+    border-color: aliceblue;
     font-weight: bold;
 }
-.aboutme:hover {
-    background-color: whitesmoke;
-    color: rgb(3, 133, 199);
-}
-
 
 .research {
     width: 200px;
     height: 40px;
-    font-size:18px;
+    font-size: 18px;
     text-align: center;
     color: aliceblue;
-    font-family:'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium';
     background-color: rgb(3, 133, 199);
-    border-color:aliceblue;
+    border-color: aliceblue;
     font-weight: bold;
 }
-.research:hover {
-    background-color: whitesmoke;
-    color: rgb(3, 133, 199);
-}
 
-
-.linkedin {
-    width: 120px;
-    height: 40px;
-    font-size:18px;
-    text-align: center;
-    color: aliceblue;
-    font-family:'Franklin Gothic Medium';
-    background-color: rgb(3, 133, 199);
-    border-color:aliceblue;
-    font-weight: bold;
-}
-.linkedin:hover {
-    background-color: whitesmoke;
-    color: rgb(3, 133, 199);
-}
-
-
-.resume {
-    width: 120px;
-    height: 40px;
-    font-size:18px;
-    text-align: center;
-    color: aliceblue;
-    font-family:'Franklin Gothic Medium';
-    background-color: rgb(3, 133, 199);
-    border-color:aliceblue;
-    font-weight: bold;
-}
+.aboutme:hover,
+.research:hover,
+.linkedin:hover,
 .resume:hover {
     background-color: whitesmoke;
     color: rgb(3, 133, 199);
 }
 
-
 .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    flex-direction: row;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    gap: 15px 30px;
+    padding: 25px 16px;
     background-color: lightblue;
     border-top: 3px solid aliceblue;
     border-bottom: 3px solid rgb(3, 133, 199);
+    box-sizing: border-box;
 }
 
-.headings{
+.headings {
     background-color: rgb(3, 133, 199);
-    margin: -21px;
+    margin: 0;
     padding: 20px;
+    box-sizing: border-box;
 }
 
-
-#nameResume {
-    font-family:'Franklin Gothic Medium';
-    font-size: 50px;
-    color: rgb(3, 133, 199);
-    text-align:center;
-    text-shadow: 1px 1px 2px aliceblue;
-    padding-left:30px;
-}
-
+#nameResume,
 #nameResearch {
-    font-family:'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium';
     font-size: 50px;
     color: rgb(3, 133, 199);
-    text-align:center;
+    text-align: center;
     text-shadow: 1px 1px 2px aliceblue;
-    padding-left:30px;
+    padding-left: 30px;
 }
-
-
-
 
 .pdf-container {
-    max-width: 800px; 
+    max-width: 800px;
     margin: 20px auto;
-    border: 3px solid  rgb(3, 133, 199);
+    border: 3px solid rgb(3, 133, 199);
     border-radius: 8px;
 }
 
@@ -148,15 +104,15 @@ body {
 }
 
 #firstpara {
-    border-top: 3px solid aliceblue;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
     font-size: 22px;
-    text-align:justify;
+    text-align: justify;
     color: rgb(3, 133, 199);
-    max-width: 750px;
+    max-width: 680px;
     margin: 24px auto;
+    margin-right: min(380px, 32vw);
     padding: 24px clamp(16px, 4vw, 32px);
-    padding-right: 400px;
+    box-sizing: border-box;
     display: block;
 }
 
@@ -165,8 +121,7 @@ body {
 #fourthpara,
 #fifthpara,
 #sixthpara,
-#seventhpara
-{
+#seventhpara {
     font-family: 'Times New Roman';
     font-size: 22px;
     text-align: justify;
@@ -174,34 +129,52 @@ body {
     max-width: 900px;
     margin: 24px auto;
     padding: 24px clamp(16px, 4vw, 32px);
+    box-sizing: border-box;
     display: block;
 }
 
-#quoteone{
+#quoteone {
+    font-family: 'Times New Roman';
+    font-size: 22px;
     color: aliceblue;
     text-align: center;
     text-shadow: 1px 1px 2px lightskyblue;
+    max-width: 900px;
     margin: 30px auto;
     padding: 24px clamp(16px, 4vw, 32px);
     background-color: rgb(3, 133, 199);
+    box-sizing: border-box;
+    display: block;
 }
 
 #firstparaResearch {
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
     font-size: 22px;
     color: rgb(3, 133, 199);
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top:20px;
+    padding: 20px clamp(16px, 5vw, 70px);
+    box-sizing: border-box;
     display: block;
 }
 
 .headshot {
     max-width: 300px;
+    width: 100%;
     height: auto;
-    margin: 20px auto;
-    display: block;
     float: right;
-    margin-right: 70px;
+    margin: 24px clamp(16px, 4vw, 70px) 20px 24px;
     border: 3px solid rgb(3, 133, 199);
+    box-sizing: border-box;
+}
+
+@media (max-width: 820px) {
+    #firstpara {
+        max-width: 750px;
+        margin: 24px auto;
+    }
+
+    .headshot {
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
 }
