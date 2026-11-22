@@ -142,7 +142,6 @@ body {
     border: none;
 }
 
-/* First paragraph: centered with room on the right for the floating headshot */
 #firstpara {
     font-family: 'Times New Roman';
     font-size: 22px;
@@ -150,15 +149,11 @@ body {
     color: rgb(3, 133, 199);
     max-width: 680px;
     margin: 24px auto;
-    margin-right: min(380px, 32vw);
     padding: 24px clamp(16px, 4vw, 32px);
-    border: 2px solid rgb(3, 133, 199);
-    border-radius: 8px;
     box-sizing: border-box;
     display: block;
 }
 
-/* Paragraphs 2–7: wider below while keeping responsive side breathing room */
 #secondpara,
 #thirdpara,
 #fourthpara,
@@ -172,9 +167,7 @@ body {
     max-width: 900px;
     margin: 24px auto;
     padding: 24px clamp(16px, 4vw, 32px);
-    border: 2px solid rgb(3, 133, 199);
-    border-radius: 8px;
-    box-sizing: border-box;
+    border: 2px;
     display: block;
 }
 
