@@ -115,18 +115,19 @@ body {
 }
 
 #firstpara {
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
+    line-height: 1.45;
     text-align: justify;
     background-color: rgb(3, 133, 199);
     max-width: 500px;
     flex: 1;
     margin: 0;
-    padding: 12px 16px;
+    padding: 16px 20px;
     box-sizing: border-box;
     display: block;
     color: aliceblue;
-    text-shadow: 1px 1px 2px lightskyblue;
+    border-radius: 6px;
 }
 
 .headshot {
@@ -166,7 +167,7 @@ body {
     margin: 18px auto;
     background-color: rgb(3, 133, 199);
     box-sizing: border-box;
-    padding: 20 px;
+    padding: 20px;
     display: block;
 }
 
