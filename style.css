@@ -103,7 +103,6 @@ body {
     border: none;
 }
 
-/* First paragraph + headshot aligned side-by-side */
 .top-bio-row {
     display: flex;
     align-items: center;
@@ -138,7 +137,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Paragraphs 2–7: wider below with tighter spacing */
 #secondpara,
 #thirdpara,
 #fourthpara,
@@ -158,7 +156,7 @@ body {
 
 #quoteone {
     font-family: 'Times New Roman';
-    font-size: 22px;
+    font-size: 24px;
     color: aliceblue;
     text-align: center;
     text-shadow: 1px 1px 2px lightskyblue;
