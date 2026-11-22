@@ -149,8 +149,6 @@ body {
 
 #firstpara {
     border-top: 3px solid aliceblue;
-    border: 2px solid rgb(3, 133, 199);
-    border-radius: 8px;
     font-family:'Times New Roman';
     font-size: 22px;
     text-align:justify;
@@ -176,9 +174,6 @@ body {
     max-width: 900px;
     margin: 24px auto;
     padding: 24px clamp(16px, 4vw, 32px);
-    border: 2px solid rgb(3, 133, 199);
-    border-radius: 8px;
-    box-sizing: border-box;
     display: block;
 }
 
